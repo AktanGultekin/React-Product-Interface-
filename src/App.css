@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  max-width: 100vw;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+}
+
+.mynavbar{
+  background-color: rgb(4, 27, 74);
+  width: 100%;
+  height: 5%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+
+
+.AddSection {
+  width: 50vw;
+  display:block;
+  margin-top:10vh;
+  
+}
+
+.Add{
+  height:50vh;
+  width:auto;
+  border: 1px solid rgb(68, 166, 232);
+}
+
+.DeleteSection {
+  width: 50vw;
+  display:block;
+  margin-top:5vh;
+}
+
+.Delete{
+  height:50vh;
+  width:auto;
+  border: 1px solid rgb(68, 166, 232);
+}
+
+.LogSection {
+  width: 50vw;
+  display:block;
+  margin-top:5vh;
+}
+
+.Log{
+  height:75vh;
+  width:auto;
+  border: 1px solid rgb(68, 166, 232);
+}
+
