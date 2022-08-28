@@ -19,7 +19,7 @@ function App() {
   const [productList, setProductList] = useState([]);
 
   const getProducts = () => {
-    Axios.get("https://react-backend-deploy.herokuapp.com//products").then((response) => {
+    Axios.get("https://react-backend-deploy.herokuapp.com/products").then((response) => {
       setProductList(response.data);
     });
   };
