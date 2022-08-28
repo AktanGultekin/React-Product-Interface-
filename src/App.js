@@ -135,7 +135,7 @@ function App() {
           {/*Buton parametrelerine onClick={displayInfo} özelliği eklenilebilir.*/}
           <button type="button" className="btn btn-primary float-end me-3 px-5 mt-5" id="Çıkarma" onClick={()=> {
             addProduct();
-            refreshPage();
+            
             }}
           style={{backgroundColor:"rgb(68, 166, 232)",border:"1px solid black",borderRadius:"%25",margin:"20px"}}>Ekle</button>
           </form>
@@ -200,7 +200,7 @@ function App() {
 
         <button type="button" id="Raporlama" className="btn btn-primary float-end me-3 px-5 mt-5" onClick={()=> {
             deleteProduct();
-            refreshPage();
+            
             }}
 
         style={{backgroundColor:"rgb(68, 166, 232)",border:"1px solid black",borderRadius:"%25",margin:"20px"}}>Çıkart</button>
