@@ -51,7 +51,7 @@
 }
 
 .Log{
-  height:75vh;
+  height:auto;
   width:auto;
   border: 1px solid rgb(68, 166, 232);
 }
