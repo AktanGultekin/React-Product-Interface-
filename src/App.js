@@ -39,7 +39,7 @@ function App() {
   const deleteProduct = () => {
     Axios.post('https://react-backend-deploy.herokuapp.com/delete', {
       productname: productname, 
-      quantity: quantity,
+      quantity: -quantity,
       companyname: companyname,
       deletedate: deletedate 
     }).then(()=> {
